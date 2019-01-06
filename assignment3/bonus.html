@@ -1,0 +1,38 @@
+<!-- Form asks the user the radius of a sphere and outputs the volume -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignmet 3</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+</head>
+<body>
+
+<div class="volumeBox">
+	<form>
+			<h1 id="title"> Volume of Sphere</h1>
+			<hr>
+	   <div class="form-group">
+	       <label for="radius">Enter Radius </label>
+	       <input type="number"  id="radius" placeholder="radius">
+	    </div>
+
+       <div class="form-group">
+	      <input type="button"  value="Submit" onclick="sphereVolume()" />
+       </div>
+
+
+       <div class="volume">
+    	<h3 id="answer"></h3>
+       </div>
+
+ </form>
+     
+    
+</div>
+
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

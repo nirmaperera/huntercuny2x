@@ -1,0 +1,67 @@
+body{
+	margin:0px;
+	padding:0px;
+	
+}
+
+button{
+	padding: 20px 50px;
+	display: inline-block;
+	margin: 20px;
+}
+
+
+
+h1,h2,h3{
+   text-align: center;
+   color:#6980A8;
+   font-family: 'Thasadith', sans-serif;
+}
+
+
+form,.container{
+	width:500px;
+	margin: 0px auto;
+	margin-top: 50px;
+	text-align: center;
+	border: 2px solid black;
+	padding: 30px;
+	background-color: #F0F0F0;
+
+
+}
+
+.form-group{
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+input{
+	padding: 5px 10px;
+}
+
+
+hr{
+	width: 35%;
+	color: #3F5F99;
+
+}
+
+.volume{
+	width: 50%;
+	margin: 0px auto;
+	
+}
+
+.volume h3{
+	text-align: center;
+}
+.volumeBox{
+	background-image: linear-gradient(to right bottom, #eeeef2, #e0e1ea, #d2d4e2, #c3c8db, #b3bcd3, #a4b0cc, #95a4c4, #8599bd, #748ab4, #627cab, #516da2, #3f5f99);
+	width: 800px;
+	padding: 40px;
+	border: 1px solid black;
+	margin: 70px auto;
+}
+
